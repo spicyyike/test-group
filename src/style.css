@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "tradewinds"; /* Choose a name for your font */
+  src: url("./assets/fonts/TradeWinds-Regular.ttf") format("truetype"); /* Adjust the path and filename */
+  font-weight: normal; /* Or specify the weight if your font has it */
+  font-style: normal; /* Or specify the style */
+  font-display: swap; /* Optional: Controls how font is loaded and displayed */
+}
+
+.font-tradewinds {
+  font-family: "tradewinds", cursive;
+}
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif; /* Applies Poppins globally */
+  }
+}
