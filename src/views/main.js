@@ -5,7 +5,7 @@ import diversityIcon from "../assets/images/diversity.png";
 
 export function renderMain() {
   document.querySelector("#app").innerHTML = `
-  <div class="flex flex-col min-h-screen bg-slate-900 text-white justify-center items-center gap-y-2">
+  <div class="flex flex-col min-h-screen bg-slate-900 text-white justify-center items-center gap-y-2 py-6">
   <div class="flex gap-x-4">
    <a href="https://vite.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
@@ -24,7 +24,7 @@ export function renderMain() {
       Click on the Vite logo to learn more
     </p>
     <p class="text-center">This is a starter project structure for a small to medium sized vanilla JavaScript website/app.</p>
-    <a href="https://thailand.generation.org/programs/junior-software-developer" target="_blank">
+    <a href="https://thailand.generation.org/programs/junior-software-developer" target="_blank" class="pt-6">
     <img src="https://thailand.generation.org/wp-content/uploads/2024/08/Final-Junior-Software-Developer.png" class="border-8 rounded-xl" />
     </a>  
     </div>
